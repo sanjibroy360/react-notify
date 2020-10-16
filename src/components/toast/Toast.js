@@ -30,7 +30,6 @@ function Toast({ toast, index }) {
   }
 
   return (
-    ReactDOM.createPortal(
     <div
       key={toast.id}
       className={`toast move_in_bottom ${toast.type} ${toast.position} ${horizontalPos}`}
@@ -49,8 +48,8 @@ function Toast({ toast, index }) {
           <CrossIcon />
         </button>
       </div>
-    </div>,document.getElementById("toast")
-)  );
+    </div>
+  );
 }
 
 export default Toast;

@@ -16,13 +16,18 @@ body {
 
 .container {
   max-width: 1280px;
+  height: 100vh;
   margin: 0 auto;
+ 
 }
 
-#toast {
-  position: relative;
-  height: 110vh;
-}
+// #toast {
+//   background-color: yellowgreen;
+//   position: relative;
+//   top: 1rem;
+//   height: 210%;
+//   z-index: 5555555555555555555555;
+// }
 
 *,
 *::before,

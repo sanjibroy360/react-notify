@@ -1,9 +1,9 @@
 .toast {
-  position: absolute;
+  position: fixed;
   z-index: 99999999999;
   width: 17rem;
   min-height: 3.5rem;
-  color: #ffffff;
+  color: #fff;
   border-radius: 0.25rem;
   padding: 0.35rem;
   display: flex;
