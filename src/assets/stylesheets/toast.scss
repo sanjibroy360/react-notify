@@ -1,0 +1,38 @@
+.toast {
+  position: absolute;
+  z-index: 1000000000;
+  width: 17rem;
+  min-height: 3.5rem;
+  color: #ffffff;
+  border-radius: 0.25rem;
+  padding: 0.35rem;
+  display: flex;
+  
+  justify-content: space-between;
+
+  .close_btn {
+    button {
+      background: transparent;
+      border: none;
+    }
+    svg {
+      margin: 0.25rem;
+    }
+  }
+ 
+}
+
+.toast_content {
+  flex-basis: 75%;
+  display: flex;
+  padding-top: 1rem;
+  p {
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 1.1rem;
+    margin-top: -0.15rem;
+  }
+  svg {
+    margin: 0rem 0.35rem;
+  }
+}

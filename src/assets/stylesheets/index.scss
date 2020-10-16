@@ -1,0 +1,31 @@
+@import "./css_reset.scss";
+@import "./toast.scss";
+@import "./toast_types.scss";
+@import "./toast_position.scss";
+@import "./user_input.scss";
+@import "./toast_animation.scss";
+@import "./media_query.scss";
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(247,248,250);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  outline: 0;
+}
+
+

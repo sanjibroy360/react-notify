@@ -1,0 +1,81 @@
+@media all and (max-width: 1160px) {
+  body,
+  html {
+    font-size: 10px !important;
+  }
+
+  .user_input_section {
+    width: 75% !important;
+    margin: 4rem auto;
+    .code_demo {
+      display: flex;
+      justify-content: space-between;
+      .provider_code {
+        flex-basis: 55%;
+        overflow: hidden;
+      }
+
+      .toast_code {
+        flex-basis: 41%;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 786px) {
+  body,
+  html {
+    font-size: 11px !important;
+  }
+
+  .container {
+    width: 786px;
+    margin: 0 auto;
+  }
+  .user_input_section {
+    width: 98% !important;
+    margin: 4rem auto;
+    line-height: 1.6;
+
+    .title {
+      margin-top: 2rem;
+    }
+    input {
+      margin-right: 0.4rem;
+    }
+    input[type="radio"] {
+      position: relative;
+      top: 0.4rem;
+    }
+
+    .type_input,
+    .pos_input {
+      display: block;
+    }
+
+    .code_demo {
+      flex-wrap: wrap !important;
+      justify-content: center;
+
+      .provider_code {
+        flex-basis: 98%;
+        overflow-x: scroll !important;
+      }
+
+      .toast_code {
+        margin: 1rem auto;
+        flex-basis: 98%;
+        overflow: scroll !important;
+      }
+    }
+
+    .message_sec {
+      display: block;
+
+      
+    }
+    .toast_btn {
+      margin-top: 1.75rem;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.user_input_section {
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 2rem 3rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.19), 0px 2px 2px rgba(0, 0, 0, 0.23);
+  border: 1px solid #bbbaba;
+  border-radius: 0.25rem;
+  margin: 3rem auto;
+  transform: translate(-50%, -50%);
+
+  .title {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 0.8rem 0rem;
+    text-align: center;
+    color: rgb(20, 1, 1);
+  }
+  .form {
+    margin-top: 2rem;
+
+    textarea {
+      width: 95%;
+    }
+
+    label {
+      cursor: pointer;
+      padding: 0rem 0.4rem;
+      font-size: 1.25rem;
+      margin-right: 1rem;
+    }
+
+    input[type="radio"] {
+      position: relative;
+      top: 0.05rem;
+    }
+
+    h2 {
+      display: block;
+      font-size: 1.4rem;
+      margin: 1.5rem 0rem 0.5rem;
+    }
+
+    .toast_btn {
+      margin-top: 2.4rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .message_sec {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      h2 {
+        margin: 1.5rem 0rem 0.5rem;
+      }
+      div {
+        flex-basis: 41%;
+      }
+    }
+  }
+}
+
+.code_demo {
+  display: flex;
+  justify-content: space-between;
+  word-break: break-word;
+
+  width: 100%;
+  margin: 0 auto;
+  div {
+    font-size: 0.98rem;
+    flex-basis: 41%;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+
+    background-color: rgb(34, 34, 34);
+    color: #ddd;
+    p {
+      margin: 0.35rem 0rem;
+      word-spacing: 1px;
+    }
+    .tagname,
+    .code {
+      color: rgb(63, 176, 200);
+      font-size: 0.984rem;
+      letter-spacing: 0.875px;
+    }
+    .prop_name {
+      color: rgb(145, 172, 37);
+    }
+  }
+}
