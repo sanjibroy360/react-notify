@@ -7,7 +7,7 @@
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.19), 0px 2px 2px rgba(0, 0, 0, 0.23);
   border: 1px solid #bbbaba;
   border-radius: 0.25rem;
-  margin: 3rem auto;
+  margin-top: 3rem;
   transform: translate(-50%, -50%);
 
   .title {
@@ -24,24 +24,24 @@
       width: 95%;
     }
 
-    label {
-      cursor: pointer;
-      padding: 0rem 0.4rem;
-      font-size: 1.25rem;
-      margin-right: 1rem;
-    }
-
+    
     input[type="radio"] {
       position: relative;
       top: 0.05rem;
     }
-
+    
     h2 {
       display: block;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       margin: 1.5rem 0rem 0.5rem;
     }
-
+    
+    label {
+      cursor: pointer;
+      padding: 0rem 0.4rem;
+      font-size: 0.9rem;
+      margin-right: 1rem;
+    }
     .toast_btn {
       margin-top: 2.4rem;
       display: flex;
@@ -71,22 +71,24 @@
   width: 100%;
   margin: 0 auto;
   div {
-    font-size: 0.98rem;
+    
+    font-size: 0.75rem;
     flex-basis: 41%;
-    padding: 0.75rem;
+    padding: 0.85rem;
     border-radius: 0.25rem;
 
     background-color: rgb(34, 34, 34);
     color: #ddd;
     p {
+      line-height: 1.1 !important;
       margin: 0.35rem 0rem;
       word-spacing: 1px;
     }
     .tagname,
     .code {
       color: rgb(63, 176, 200);
-      font-size: 0.984rem;
-      letter-spacing: 0.875px;
+      font-size: 0.875rem;
+      letter-spacing: 0.5px;
     }
     .prop_name {
       color: rgb(145, 172, 37);

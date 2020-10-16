@@ -9,11 +9,16 @@ function UserGuide({ toastType, message }) {
         <nobr>
           <p>
             &lt;<span className="tagname">ToastProvider</span>{" "}
-            <span className="prop_name">position</span> = "
+          </p>
+          <p>
+            &emsp;&nbsp;<span className="prop_name">position</span> = "
             {context.state?.position}"
-            <span className="prop_name"> autoClose</span> =&nbsp;
+          </p>
+          <p>
+            &emsp;&nbsp;<span className="prop_name">autoClose</span> =&nbsp;
             {context.state?.autoClose}
-            &nbsp;&gt;
+            &nbsp;
+            <p>&gt;</p>
           </p>
         </nobr>
         <p>&emsp;&emsp;Your Components</p>

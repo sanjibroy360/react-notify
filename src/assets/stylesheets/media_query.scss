@@ -1,27 +1,3 @@
-@media all and (max-width: 1160px) {
-  body,
-  html {
-    font-size: 10px !important;
-  }
-
-  .user_input_section {
-    width: 75% !important;
-    margin: 4rem auto;
-    .code_demo {
-      display: flex;
-      justify-content: space-between;
-      .provider_code {
-        flex-basis: 55%;
-        overflow: hidden;
-      }
-
-      .toast_code {
-        flex-basis: 41%;
-      }
-    }
-  }
-}
-
 @media all and (max-width: 786px) {
   body,
   html {

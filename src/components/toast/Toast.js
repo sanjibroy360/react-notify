@@ -19,7 +19,7 @@ function Toast({ toast, index }) {
     return () => {
       clearInterval(timerId);
     };
-  }, []);
+  }, [toast]);
 
   function handleRemoveToast(toast) {
     return context.dispatch({

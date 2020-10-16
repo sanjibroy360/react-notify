@@ -5,13 +5,17 @@ import { STORE_PROPS } from "../../types";
 
 function ToastContainer(props) {
   let context = useContext(ToastContext);
+  let {dispatch} = context;
 
   useEffect(() => {
-    context.dispatch({
+    dispatch({
       type: STORE_PROPS,
-      payload: props,
+      payload: {
+        position: props?.position,
+        autoClose: props?.autoClose,
+      }
     });
-  }, [props?.position, props?.autoClose]);
+  }, [props?.position, props?.autoClose, dispatch]);
 
   return (
     <div>
