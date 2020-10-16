@@ -18,8 +18,8 @@ function UserGuide({ toastType, message }) {
             &emsp;&nbsp;<span className="prop_name">autoClose</span> =&nbsp;
             {context.state?.autoClose}
             &nbsp;
-            <p>&gt;</p>
           </p>
+            <p>&gt;</p>
         </nobr>
         <p>&emsp;&emsp;Your Components</p>
         <nobr>

@@ -19,6 +19,11 @@ body {
   margin: 0 auto;
 }
 
+#toast {
+  position: relative;
+  height: 110vh;
+}
+
 *,
 *::before,
 *::after {

@@ -9,6 +9,7 @@
   border-radius: 0.25rem;
   margin-top: 3rem;
   transform: translate(-50%, -50%);
+  z-index: 3;
 
   .title {
     width: 100%;
@@ -87,7 +88,7 @@
     .tagname,
     .code {
       color: rgb(63, 176, 200);
-      font-size: 0.875rem;
+      font-size: 0.75rem;
       letter-spacing: 0.5px;
     }
     .prop_name {

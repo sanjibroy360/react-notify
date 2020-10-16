@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from "react";
+import React, { useEffect, useContext, createPortal } from "react";
 import ToastContext from "../../context/toastContext";
 import Toast from "../toast/Toast";
 import { STORE_PROPS } from "../../types";

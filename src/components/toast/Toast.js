@@ -1,4 +1,5 @@
 import React, { useEffect, useContext } from "react";
+import ReactDOM from "react-dom";
 import ToastContext from "../../context/toastContext";
 import { REMOVE_TOAST_DIRECTIONWISE } from "../../types";
 import CrossIcon from "../icons/CrossIcon";
@@ -29,6 +30,7 @@ function Toast({ toast, index }) {
   }
 
   return (
+    ReactDOM.createPortal(
     <div
       key={toast.id}
       className={`toast move_in_bottom ${toast.type} ${toast.position} ${horizontalPos}`}
@@ -47,8 +49,8 @@ function Toast({ toast, index }) {
           <CrossIcon />
         </button>
       </div>
-    </div>
-  );
+    </div>,document.getElementById("toast")
+)  );
 }
 
 export default Toast;
