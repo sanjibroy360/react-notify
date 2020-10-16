@@ -1,5 +1,4 @@
 import React, { useEffect, useContext } from "react";
-import ReactDOM from "react-dom";
 import ToastContext from "../../context/toastContext";
 import { REMOVE_TOAST_DIRECTIONWISE } from "../../types";
 import CrossIcon from "../icons/CrossIcon";
@@ -34,7 +33,7 @@ function Toast({ toast, index }) {
       key={toast.id}
       className={`toast move_in_bottom ${toast.type} ${toast.position} ${horizontalPos}`}
       style={{
-        [varticalPos]: `${index * 4 + 0.25}rem`,
+        [varticalPos]: `${index * 5 + 0.25}rem`,
       }}
     >
       <div className="toast_content">

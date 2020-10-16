@@ -15,7 +15,7 @@ function UserInput({ setPosition, setAutoClose, position, autoClose }) {
   }
 
   return (
-    <div className="container">
+    <div>
       <div className="user_input_section">
         <h1 className="title">Notify</h1>
         <UserGuide toastType={toastType} message={message} />

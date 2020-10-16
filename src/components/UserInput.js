@@ -15,7 +15,7 @@ function UserInput({ setPosition, setAutoClose, position, autoClose }) {
   }
 
   return (
-    <div className="container">
+    <div>
       <div className="user_input_section">
         <h1 className="title">Notify</h1>
         <UserGuide toastType={toastType} message={message} />
@@ -88,7 +88,7 @@ function UserInput({ setPosition, setAutoClose, position, autoClose }) {
             </div>
           </div>
           <div className="toast_btn">
-            <Button onClick={handleClick} size="large" basic color="blue">
+            <Button onClick={handleClick} size="medium" basic color="blue">
               Show Toast
             </Button>
           </div>

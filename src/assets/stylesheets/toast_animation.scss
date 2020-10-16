@@ -59,7 +59,7 @@
   animation-fill-mode: forward;
 }
 
-@keyframes move_top {
+@keyframes move_bottom {
   0% {
     opacity: 0;
 
@@ -76,6 +76,7 @@
 }
 
 .bottom-center {
-  animation: move_top 0.3s;
+  animation: move_bottom 0.3s;
+  
   animation-fill-mode: forward;
 }
