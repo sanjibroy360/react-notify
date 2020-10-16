@@ -41,42 +41,19 @@
 @keyframes move_top {
   0% {
     opacity: 0;
-
-    transform: translateY(-30px);
+    transform: translate(-50%, -20px);
   }
   50% {
     opacity: 1;
-    transform: translateY(30px);
+    transform: translate(-50%, 20px);
   }
   100% {
     opacity: 1;
-    transform: translate(0px);
+    transform: translate(-50%, 0px);
   }
 }
 
 .center {
   animation: move_top 0.3s;
-  animation-fill-mode: forward;
-}
-
-@keyframes move_bottom {
-  0% {
-    opacity: 0;
-
-    transform: translateY(30px);
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0px);
-  }
-}
-
-.bottom-center {
-  animation: move_bottom 0.3s;
-  
   animation-fill-mode: forward;
 }
